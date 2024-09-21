@@ -90,13 +90,32 @@
             </div>
         </section>
         <section id="contact">
-            <div class="form-for-me">
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" text="name"> <br>
-                </form>
-            </div>
+            <section class="contact-child">
+                <div class="reachout-me">
+                    <p>Contact</p>
+                    <h1>Reach out me</h1>
+                </div>
+                <div class="form-for-me">
+                    <form action="#">
+                        <div class="input-item">
+                            <input type="name" name="name" id="name" placeholder="Your Name." required>
+                            <input type="email" name="email" id="email" placeholder="Your Email." required>
+                        </div>
+                        <textarea name="message" id="message" placeholder="MESSAGE" required></textarea>
+                        <div class="input-file">
+                            <label for="file">📎 Attach "File</label>
+                            <input type="file" name="file" id="file">
+                        </div>
+                        <button class="submit-button" type="submit">Submit Now</button>
+                    </form>
+                </div>
+            </section>
         </section>
     </main>
+    <footer>
+        <div class="copyright">
+            &copy; 2024 Ruhan All Right reserved.
+        </div>
+    </footer>
 </body>
 </html>

@@ -13,17 +13,15 @@
     color: var(--font-color);
 
 }
-
-.home-page {
+body{
     background-color: var(--background-color);
 }
-
 .nav-bar {
     padding: 70px 200px;
-    background-color: var(--background-color);
 }
 
 .nav-bar ul {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -73,6 +71,7 @@
 }
 
 #about {
+    /* width: 100%; */
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     height: 540px;
     display: flex;
@@ -163,4 +162,92 @@
     font-size: 24px;
     padding: 10px;
     border: none;
+}
+#contact{
+    padding: 200px;
+    height: 540px;
+    background-color: var(--background-color);
+}
+.contact-child{
+    height: 540px;
+    background-color: var(--second-font-color);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.reachout-me{
+    text-align: center;
+}
+.reachout-me p{
+    font-size: 18px;
+    font-style: italic;
+}
+.reachout-me h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.input-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input-item input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--second-font-color);
+    outline: none;
+    border-bottom: 2px solid #b66a33;
+    color: #ffffff;
+}
+.input-item input::placeholder{
+    color: var(--font-color);
+    font-size: 16px;
+}
+textarea{
+    width: 100%;
+    /* padding: 20px; */
+    margin: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--second-font-color);
+    border-bottom: 2px solid #b66a33;
+    resize: none;
+    height: 100px;
+    color: var(--font-color);
+}
+textarea::placeholder{
+    color: var(--font-color);
+    font-size: 16px;
+}
+.input-file{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-file label{
+    color: var(--font-color);
+}
+.input-file input[type="file"]{
+    display: none;
+}
+.submit-button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #1E1E1E;
+    font-size: 16px;
+    cursor: pointer;
+    transition: var(--background-color) 0.3s;
+}
+.submit-button:hover{
+    background-color: #FD6F00;
+}
+footer{
+    height: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
 }
