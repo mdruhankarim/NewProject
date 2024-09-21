@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --font-color: white;
+    --second-font-color: #FD6F00;
+    --background-color: #1E1E1E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Rubik", sans-serif;
+    color: var(--font-color);
+
+}
+
+.home-page {
+    background-color: var(--background-color);
+}
+
+.nav-bar {
+    padding: 70px 200px;
+    background-color: var(--background-color);
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-bar ul a {
+    font-size: 21px;
+    /* color: var(--font-color); */
+    text-decoration: none;
+}
+
+#home {
+    padding: 70px 500px 70px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-child h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+.home-box button {
+    background-color: var(--second-font-color);
+    margin: 20px 20px 20px 0px;
+    font-size: 26px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.home-child-2 a img {
+    text-align: center;
+}
+
+.home-child-2 img {
+    border-radius: 10px;
+}
+
+.home-icon ul {
+    font-size: 1.5em;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#about {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    padding: 94px 0px 0px 200px;
+}
+
+.experience h3 {
+    font-size: 18px;
+    /* padding-top: 24px; */
+    font-weight: 400px;
+    font-style: italic;
+}
+
+.experience h1 {
+    font-size: 40px;
+    padding-top: 24px;
+}
+
+.experience p {
+    max-width: 540px;
+    padding-top: 24px;
+    font-size: 18px;
+}
+
+.first-year {
+    padding: 94px 200px 0px 0px;
+}
+
+.first-year ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.first-year2 h3 {
+    font-size: 36px;
+}
+
+.second-year {
+    padding: 0px 200px 0px 0px;
+}
+
+.second-year ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.second-year2 h3 {
+    font-size: 36px;
+}
+
+#projects {
+    height: 540px;
+    background-color: var(--background-color);
+}
+
+.myportfolio {
+    text-align: center;
+    padding-top: 94px;
+}
+
+.myportfolio h1 {
+    font-size: 40px;
+}
+
+.myportfolio p {
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+.project-button {
+    text-align: center;
+    padding-top: 24px;
+    align-items: center;
+}
+
+.project-button button {
+    background-color: black;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+}
