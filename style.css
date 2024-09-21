@@ -34,6 +34,9 @@ body {
     /* color: var(--font-color); */
     text-decoration: none;
 }
+.nav-bar ul a:hover{
+    color: var(--second-font-color);
+}
 
 #home {
     padding: 70px 500px 70px 200px;
@@ -74,7 +77,7 @@ body {
 
 #about {
     /* width: 100%; */
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #FFA62F 0%, #80D0C7 100%);
     height: 540px;
     display: flex;
     justify-content: space-between;
