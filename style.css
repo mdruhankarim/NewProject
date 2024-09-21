@@ -55,9 +55,14 @@ body {
     background-color: var(--second-font-color);
     margin: 20px 20px 20px 0px;
     font-size: 26px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50px;
     border: none;
+}
+.home-box button:hover{
+    background-color: var(--font-color);
+    color: var(--second-font-color);
+    cursor: pointer;
 }
 
 .home-child-2 a img {
@@ -74,6 +79,9 @@ body {
     list-style: none;
     gap: 20px;
 }
+    i:hover{
+    color: var(--second-font-color);
+    }
 
 #about {
     /* width: 100%; */
@@ -144,6 +152,9 @@ body {
 
 .myportfolio {
     text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: grid;
     padding-top: 94px;
 }
 
@@ -152,21 +163,28 @@ body {
 }
 
 .myportfolio p {
+    max-width: 540px;
+    padding-top: 10px;
+    margin: auto;
     font-size: 18px;
-    padding-top: 24px;
+    /* padding-top: 24px; */
 }
 
 .project-button {
     text-align: center;
     padding-top: 24px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .project-button button {
-    background-color: black;
+    background-color: var(--second-font-color);
     font-size: 24px;
     padding: 10px;
     border: none;
+}
+.project-button button:hover{
+    background-color: white;
+    color: var(--second-font-color);
 }
 
 #contact {
@@ -242,9 +260,16 @@ textarea::placeholder {
     align-items: center;
     margin-bottom: 20px;
 }
-
 .input-file label {
     color: var(--font-color);
+    padding: 10px;
+}
+.input-file label:hover{
+    cursor: pointer;
+    /* color: var(--background-color); */
+    background-color:var(--background-color) ;
+    /* margin: 10px; */
+    /* border-radius: 20px; */
 }
 
 .input-file input[type="file"] {
@@ -262,7 +287,8 @@ textarea::placeholder {
 }
 
 .submit-button:hover {
-    background-color: #FD6F00;
+    background-color: var(--font-color);
+    color: var(--second-font-color);
 }
 
 footer {
@@ -271,4 +297,150 @@ footer {
     padding: 20px;
     background-color: black;
     text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-bar {
+        padding: 20px ;
+    }
+    #home {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-child h1 {
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+    .home-box button {
+        background-color: var(--second-font-color);
+        margin: 10px 10px 20px 0px;
+        font-size: 26px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .experience {
+        padding: 50px;
+    }
+    
+    .experience h3 {
+        font-size: 18px;
+        /* padding-top: 24px; */
+        font-weight: 400px;
+        font-style: italic;
+    }
+    
+    .experience h1 {
+        font-size: 30px;
+        padding-top: 24px;
+    }
+    
+    .experience p {
+        max-width: 100%;
+        padding-top: 24px;
+        font-size: 15px;
+    }
+    
+    .first-year {
+        padding: 94px 100px 0px 0px;
+    }
+    
+    .first-year ul {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+    
+    .first-year2 h3 {
+        font-size: 26px;
+    }
+    
+    .second-year {
+        padding: 0px 50px 0px 0px;
+    }
+    
+    .second-year ul {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    
+    .second-year2 h3 {
+        font-size: 26px;
+    }
+    
+    .myportfolio {
+        text-align: center;
+        padding-top: 74px;
+    }
+    
+    .myportfolio h1 {
+        font-size: 40px;
+    }
+    
+    .myportfolio p {
+        font-size: 18px;
+        padding-top: 24px;
+    }
+    
+    .project-button {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+        padding: 24px;
+    }
+    
+    .project-button button {
+        width: 300px;
+        background-color: var(--second-font-color);
+        font-size: 24px;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+    }
+    #contact {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 200px;
+        height: 540px;
+        background-color: var(--background-color);
+    }
+    
+    .contact-child {
+        height: 540px;
+        width: 50%;
+        background-color: var(--second-font-color);
+        padding: 50px;
+        margin: 50px;
+        border-radius: 20px;
+    }
+    .reachout-me p {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    .reachout-me h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .input-item input::placeholder {
+        color: var(--font-color);
+        font-size: 12px;
+    }
+    textarea::placeholder{
+        font-size: 12px;
+    }
+    .input-file{
+        font-size: 12px;
+    }
 }
