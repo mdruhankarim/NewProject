@@ -13,9 +13,11 @@
     color: var(--font-color);
 
 }
-body{
+
+body {
     background-color: var(--background-color);
 }
+
 .nav-bar {
     padding: 70px 200px;
 }
@@ -163,35 +165,42 @@ body{
     padding: 10px;
     border: none;
 }
-#contact{
+
+#contact {
     padding: 200px;
     height: 540px;
     background-color: var(--background-color);
 }
-.contact-child{
+
+.contact-child {
     height: 540px;
     background-color: var(--second-font-color);
     padding: 50px;
     margin: 50px;
     border-radius: 20px;
 }
-.reachout-me{
+
+.reachout-me {
     text-align: center;
 }
-.reachout-me p{
+
+.reachout-me p {
     font-size: 18px;
     font-style: italic;
 }
-.reachout-me h1{
+
+.reachout-me h1 {
     font-size: 40px;
     text-transform: uppercase;
 }
-.input-item{
+
+.input-item {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.input-item input{
+
+.input-item input {
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
@@ -201,11 +210,13 @@ body{
     border-bottom: 2px solid #b66a33;
     color: #ffffff;
 }
-.input-item input::placeholder{
+
+.input-item input::placeholder {
     color: var(--font-color);
     font-size: 16px;
 }
-textarea{
+
+textarea {
     width: 100%;
     /* padding: 20px; */
     margin: 20px;
@@ -217,22 +228,27 @@ textarea{
     height: 100px;
     color: var(--font-color);
 }
-textarea::placeholder{
+
+textarea::placeholder {
     color: var(--font-color);
     font-size: 16px;
 }
-.input-file{
+
+.input-file {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.input-file label{
+
+.input-file label {
     color: var(--font-color);
 }
-.input-file input[type="file"]{
+
+.input-file input[type="file"] {
     display: none;
 }
-.submit-button{
+
+.submit-button {
     width: 100%;
     padding: 15px;
     border: none;
@@ -241,10 +257,12 @@ textarea::placeholder{
     cursor: pointer;
     transition: var(--background-color) 0.3s;
 }
-.submit-button:hover{
+
+.submit-button:hover {
     background-color: #FD6F00;
 }
-footer{
+
+footer {
     height: 20px;
     width: 100%;
     padding: 20px;
