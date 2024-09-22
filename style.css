@@ -188,13 +188,13 @@ body {
 }
 
 #contact {
-    padding: 200px;
+    padding: 100px;
     height: 540px;
     background-color: var(--background-color);
 }
 
 .contact-child {
-    height: 540px;
+    /* height: 540px; */
     background-color: var(--second-font-color);
     padding: 50px;
     margin: 50px;
@@ -439,6 +439,165 @@ footer {
     }
     textarea::placeholder{
         font-size: 12px;
+    }
+    .input-file{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .nav-bar {
+        padding: 10px ;
+    }
+    .nav-bar ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-bar ul a{
+        font-size: 15px;
+    }
+    #home {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-child h1 {
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 20px;
+        word-spacing: 5px;
+    }
+    .home-box button {
+        background-color: var(--second-font-color);
+        margin: 5px 5px 10px 0px;
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+    }
+    i{
+        font-size: 15px;
+    }
+    #about{
+        height: 360px;
+    }
+    .experience {
+        padding: 30px;
+    }
+    
+    .experience h3 {
+        font-size: 18px;
+        /* padding-top: 24px; */
+        font-weight: 400px;
+        font-style: italic;
+    }
+    
+    .experience h1 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+    .experience p {
+        max-width: 100%;
+        padding-top: 15px;
+        font-size: 10px;
+    }
+    
+    .first-year {
+        padding: 60px 50px 0px 0px;
+    }
+    
+    .first-year ul {
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .first-year2 h3 {
+        font-size: 20px;
+    }
+    
+    .second-year {
+        padding: 0px 30px 0px 0px;
+    }
+    
+    .second-year ul {
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    
+    .second-year2 h3 {
+        font-size: 20px;
+    }
+    
+    .myportfolio {
+        text-align: center;
+        padding-top: 74px;
+    }
+    
+    .myportfolio h1 {
+        font-size: 30px;
+    }
+    
+    .myportfolio p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    
+    .project-button {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+        padding: 24px;
+    }
+    
+    .project-button button {
+        width: 300px;
+        background-color: var(--second-font-color);
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+    }
+    #contact {
+        /* width: 100%; */
+        height: 360px;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 200px;
+        height: 540px;
+        background-color: var(--background-color);
+    }
+    
+    .contact-child {
+        height: 360px;
+        width: 50%;
+        background-color: var(--second-font-color);
+        padding: 50px;
+        margin: 50px;
+        border-radius: 20px;
+    }
+    .reachout-me p {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    .reachout-me h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .input-item input::placeholder {
+        color: var(--font-color);
+        font-size: 8px;
+    }
+    textarea::placeholder{
+        font-size: 8px;
     }
     .input-file{
         font-size: 12px;
